@@ -31,9 +31,10 @@ int main() {
         if (x == 0) {
             cout << "The gioi chao mung ban" << endl;
         }
+       /*  }
             else {
                 cout << "Tuoi cua ban la: " << x << endl;
-            }
+            } */
 
         return 0;
 }
