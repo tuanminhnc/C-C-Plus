@@ -1,5 +1,5 @@
 /*
-Bai tap lenh if
+Lam quen voi lenh if
 Time 8:32
 6/12/2023
 */
@@ -18,7 +18,7 @@ int main() {
     //Buoc 1
     cout << "Bai tap lenh if" << endl;
     int x;
-    
+
     //Buoc 2
     cout << "Nhap vao tuoi cua ban: ";
     cin >> x;
