@@ -29,6 +29,12 @@ int main() {
         = 2ab + 2ab
         = 4ab
         => Dien tich phan con lai khong phu thuoc vi tri cat
+
+        = [(a + b) + (a - b)] * [(a + b) - (a - b)]
+        = 2a * 2b 
+        = 4ab
+
+        
     */
     cout << "- Dien tich mieng ton ban dau la: (a + b)^2" << endl;
     cout << "- Dien tich mieng ton da cat di la: (a - b)^2" << endl << endl;
@@ -36,7 +42,8 @@ int main() {
     cout << "=> Dien tich phan hinh con lai la: (a + b)^2 - (a - b)^2" << endl;
     cout << "=> a^2 + 2ab + b^2 - (a^2 - 2ab + b^2)" << endl;
     cout << "=> a^2 + 2ab + b^2 - a^2 + 2ab - b^2" << endl;
-    cout << "=> 2ab + 2ab = 4a" << endl;
+    cout << "=> 2ab + 2ab = 4ab" << endl;
     cout << "Vay dien tich phan hinh con lai khong phu thuoc vao bi tri cat" << endl;
+    
     return 0;
 }
